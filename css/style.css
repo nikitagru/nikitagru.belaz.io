@@ -1,0 +1,498 @@
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/");
+  src: url("../fonts/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url("../fonts/ProximaNova-Black.eot");
+  src: url("../fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black.woff") format("woff"), url("../fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Extra Bold';
+  src: url("../fonts/ProximaNova-Extrabld.eot");
+  src: url("../fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1180px;
+  margin: auto;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  max-height: 10vw;
+}
+
+header {
+  background-color: #191919;
+}
+
+.header-logo {
+  margin: 25px 0;
+}
+
+.header-worktime {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header-worktime p {
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #ffffff;
+  font-size: 0.8rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.header-worktime p span {
+  font-weight: bold;
+}
+
+.header-contacts {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header-contacts__main {
+  padding: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tel {
+  font-family: 'Proxima Nova Black', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.header-button {
+  background-color: #1669b3;
+  border: none;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 100%;
+}
+
+.first_section {
+  position: absolute;
+  width: 100%;
+}
+
+.first_section_img {
+  width: 100%;
+}
+
+.first_section_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.first_section__main {
+  width: 475px;
+  height: 43vw;
+  max-height: 1000px;
+  background-color: #f7b516;
+}
+
+.first_section__box {
+  padding: 5vw 6vw;
+}
+
+.first_content {
+  position: relative;
+}
+
+.first-section-title {
+  font-family: 'Proxima Nova Black', sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+
+.first-section-subtitle {
+  margin-top: 30px;
+  margin-bottom: 65px;
+  font-family: 'Proxima Nova Extra Bold', sans-serif;
+}
+
+.first-property {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.first-property img {
+  height: 20px;
+}
+
+.first-property p {
+  margin: 0 20px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.second-property {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.second-property img {
+  height: 20px;
+  width: 20px;
+}
+
+.second-property p {
+  margin: 0 16px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.third-property {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.third-property img {
+  height: 20px;
+}
+
+.third-property p {
+  margin: 0 16px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.forth-property {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.forth-property img {
+  height: 20px;
+}
+
+.forth-property p {
+  margin: 0 20px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.second-window__main {
+  max-width: 100%;
+}
+
+.second-section {
+  position: absolute;
+}
+
+.second-section img {
+  width: 100%;
+}
+
+.second-section__main {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.second-section__title {
+  font-family: 'Proxima Nova Black', sans-serif;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.second-section__submit {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: text;
+  justify-self: end;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-section__submit p {
+  margin-right: 40px;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.second-section-img {
+  height: 30px;
+  margin: auto;
+}
+
+.input1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: mail;
+}
+
+.input2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: tel;
+}
+
+.input3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: submit;
+  background-color: #1866af;
+  color: #fff;
+  width: 310px;
+  height: 60px;
+  border: none;
+  padding: 0 15px;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 0.9rem;
+}
+
+.form-main {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "mail tel" "text submit";
+  grid-gap: 20px;
+}
+
+.input {
+  background-color: #f2f2f2;
+  width: 280px;
+  height: 45px;
+  border: none;
+  padding: 0 15px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+}
+
+.third-section {
+  background-color: #08243e;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 200px;
+  min-width: 100%;
+}
+
+.third-section-contains {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 50px 320px;
+      grid-template-rows: 100px 50px 320px;
+}
+
+.third-section-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section-title {
+  margin-top: 75px;
+  font-size: 1.5rem;
+  font-family: 'Proxima Nova Black', sans-serif;
+  text-align: center;
+}
+
+.third-section-subtitle {
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.block-first {
+  margin-right: 85px;
+  text-align: center;
+}
+
+.block-first img {
+  width: 50%;
+}
+
+.block-second {
+  margin-right: 85px;
+  text-align: center;
+}
+
+.block-second img {
+  width: 50%;
+}
+
+.block-third {
+  margin-right: 85px;
+  text-align: center;
+}
+
+.block-third img {
+  width: 50%;
+}
+
+.block-forth {
+  text-align: center;
+}
+
+.block-forth img {
+  width: 50%;
+}
+
+.forth-section {
+  position: relative;
+  margin-top: 500px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 950px;
+    margin: auto;
+  }
+  .header {
+    max-width: 700px;
+    -ms-grid-columns: 1fr 100px 1fr;
+        grid-template-columns: 1fr 100px 1fr;
+  }
+  .tel {
+    font-size: 0.9rem;
+    margin-right: 15px;
+  }
+  .first_section__main {
+    width: 380px;
+  }
+  .first_section__box {
+    padding: 3vw 5vw;
+  }
+  .first-section-title {
+    font-size: 1.8rem;
+  }
+  .first-section-subtitle {
+    margin-bottom: 45px;
+    margin-top: 20px;
+  }
+  .first-property {
+    margin-bottom: 20px;
+  }
+  .second-property {
+    margin-bottom: 20px;
+  }
+  .third-property {
+    margin-bottom: 20px;
+  }
+  .forth-property {
+    margin-bottom: 20px;
+  }
+  .second-section__submit {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: text;
+    margin-right: 45px;
+  }
+  .input1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: mail;
+  }
+  .input2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: tel;
+  }
+  .input3 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: submit;
+  }
+  .form-main {
+        grid-template-areas: "mail" "tel" "text" "submit";
+  }
+}
+
+@media (min-width: 1920px) {
+  .first_section__box {
+    padding: 3vw 4vw;
+  }
+  .first_section_img img {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .second-section__title {
+    font-size: 2.5rem;
+  }
+  .second-section__submit p {
+    font-size: 1.2rem;
+  }
+  .second-section-img {
+    height: 40px;
+  }
+  .input {
+    width: 350px;
+    height: 66px;
+    font-size: 1.2rem;
+  }
+  .input3 {
+    width: 380px;
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

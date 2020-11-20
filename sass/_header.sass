@@ -1,0 +1,50 @@
+.header
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    max-height: 10vw
+
+header 
+    background-color: #191919
+
+.header-logo
+    margin: 25px 0
+
+.header-worktime
+    justify-self: center
+    align-self: center
+    & p
+        +regular
+        color: #ffffff
+        font-size: 0.8rem
+        line-height: 2
+        text-align: center
+        & span
+            font-weight: bold
+
+.header-contacts
+    justify-self: end
+    align-self: center
+    &__main
+        padding: 25px 0
+        display: flex  
+
+
+.tel
+    +black
+    font-size: 1rem
+    color: #ffffff
+    margin-right: 15px
+
+.header-button
+    background-color: #1669b3
+    border: none
+    +bold
+    color: #ffffff
+    padding: 12px 20px
+    font-size: 0.7rem
+    font-weight: bold
+    height: 100%
+
+
+
+

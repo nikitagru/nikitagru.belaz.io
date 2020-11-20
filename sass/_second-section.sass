@@ -1,0 +1,62 @@
+.second-window__main
+    max-width: 100%
+
+.second-section
+    position: absolute
+    & img
+        width: 100%
+    &__main
+        position: relative
+        display: grid
+        justify-content: end
+    &__title
+        +black
+        font-size: 1.5rem
+        text-align: right
+    &__submit
+        grid-area: text
+        justify-self: end
+        +regular
+        display: flex
+        & p
+            margin-right: 40px
+            font-size: 0.8rem
+            text-align: right
+    &-img
+        height: 30px
+        margin: auto
+
+.input1
+    grid-area: mail 
+
+.input2
+    grid-area: tel
+
+.input3
+    grid-area: submit
+    background-color: #1866af
+    color: #fff   
+    width: 310px
+    height: 60px
+    border: none
+    padding: 0 15px
+    +bold
+    font-size: 0.9rem
+    
+.form-main
+    display: grid
+    grid-template-areas: "mail tel" "text submit"
+    grid-gap: 20px
+
+.input
+    background-color: #f2f2f2
+    width: 280px
+    height: 45px
+    border: none
+    padding: 0 15px
+    +regular
+    font-size: 0.8rem
+
+
+
+    
